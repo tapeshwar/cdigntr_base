@@ -1,4 +1,4 @@
-$(document).ready(function(){
+ $(document).ready(function(){
 
 $('#user_login_form').validate({
     submitHandler:function(form){

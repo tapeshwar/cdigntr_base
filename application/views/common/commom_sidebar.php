@@ -12,7 +12,7 @@
                 <ul class="nav sidebar-menu">
                     <!--Dashboard-->
                     <li class="active">
-                        <a href="index.html">
+                        <a href="<?=base_url('home')?>">
                             <i class="menu-icon glyphicon glyphicon-home"></i>
                             <span class="menu-text"> Dashboard </span>
                         </a>

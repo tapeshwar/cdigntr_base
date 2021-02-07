@@ -15,8 +15,11 @@ class Home extends CORE_Controller{
     }
     
 
+    public function profile(Type $var = null){
+        
+        $this->load->view('templates/home_template.php');
+    }
     
-  
 }
 
 

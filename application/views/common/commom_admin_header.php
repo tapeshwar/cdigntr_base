@@ -35,7 +35,7 @@
             <div class="navbar-container">
                 <!-- Navbar Barnd -->
                 <div class="navbar-header pull-left">
-                    <a href="#" class="navbar-brand">
+                    <a href="<?=base_url('home')?>" class="navbar-brand">
                         <small>
                             <img src="<?=base_url('assets/img/logo.png')?>" alt="" />
                         </small>
@@ -276,7 +276,7 @@
                             <li>
                                 <a class="login-area dropdown-toggle" data-toggle="dropdown">
                                     <div class="avatar" title="View your public profile">
-                                        <img src="assets/img/avatars/adam-jansen.jpg">
+                                        <img src="<?=base_url('assets/img/avatars/adam-jansen.jpg')?>">
                                     </div>
                                     <section>
                                         <h2><span class="profile"><span>David Stevenson</span></span></h2>
@@ -289,32 +289,16 @@
                                     <!--Avatar Area-->
                                     <li>
                                         <div class="avatar-area">
-                                            <img src="assets/img/avatars/adam-jansen.jpg" class="avatar">
+                                            <img src="<?=base_url('assets/img/avatars/adam-jansen.jpg')?>" class="avatar">
                                             <span class="caption">Change Photo</span>
                                         </div>
                                     </li>
                                     <!--Avatar Area-->
                                     <li class="edit">
-                                        <a href="profile.html" class="pull-left">Profile</a>
+                                        <a href="<?=base_url('home/profile')?>" class="pull-left">Profile</a>
                                         <a href="#" class="pull-right">Setting</a>
                                     </li>
-                                    <!--Theme Selector Area-->
-                                    <!-- <li class="theme-area">
-                                        <ul class="colorpicker" id="skin-changer">
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#5DB2FF;" rel="assets/css/skins/blue.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#2dc3e8;" rel="assets/css/skins/azure.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#03B3B2;" rel="assets/css/skins/teal.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#53a93f;" rel="assets/css/skins/green.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#FF8F32;" rel="assets/css/skins/orange.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#cc324b;" rel="assets/css/skins/pink.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#AC193D;" rel="assets/css/skins/darkred.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#8C0095;" rel="assets/css/skins/purple.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#0072C6;" rel="assets/css/skins/darkblue.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#585858;" rel="assets/css/skins/gray.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#474544;" rel="assets/css/skins/black.min.css"></a></li>
-                                            <li><a class="colorpick-btn" href="#" style="background-color:#001940;" rel="assets/css/skins/deepblue.min.css"></a></li>
-                                        </ul>
-                                    </li> -->
+                                    
                                     <!--/Theme Selector Area-->
                                     <li class="dropdown-footer">
                                         <a href="<?=base_url('login/user_logout')?>">
@@ -325,15 +309,10 @@
                                 <!--/Login Area Dropdown-->
                             </li>
                             <!-- /Account Area -->
-                            <!--Note: notice that setting div must start right after account area list.
-                            no space must be between these elements-->
+                           
                             <!-- Settings -->
                         </ul>
-                        <!-- <div class="setting">
-                            <a id="btn-setting" title="Setting" href="#">
-                                <i class="icon glyphicon glyphicon-cog"></i>
-                            </a>
-                        </div> -->
+                        
                         <div class="setting-container">
                             <label>
                                 <input type="checkbox" id="checkbox_fixednavbar">
